@@ -1,0 +1,100 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* END OF CODE CHUNK */
+
+#account { /* Code for a bold button with a shadow box */
+    background-color: blue;
+    border-color: black;
+    color: white;
+    height: 40px;
+    width: 200px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 80px;
+    box-shadow: 10px 5px 0px black;
+}
+/* END OF CODE CHUNK */
+
+/* Following code is for different sized flex columns */
+.row {
+    display: flex;
+    height: 3rem;
+    text-align: left;
+}
+
+.col {
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    background-color: cyan;
+    height: 30px;
+    line-height: 0px;
+}
+
+.col-2 {
+    flex: 2;
+    padding: 20px;
+    margin: 10px;
+    background-color: cyan;
+    height: 30px;
+    line-height: 0px;
+}
+
+.col-3 {
+    flex: 3;
+    padding: 20px;
+    margin: 10px;
+    background-color: cyan;
+    height: 30px;
+    line-height: 0px;
+}
+
+/* END OF CODE CHUNK */
+
+/* Navigation bar */
+
+.nav {
+    background-color: darkslategrey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 4rem;
+    padding-left: 20px
+}
+
+h1 {
+    color: white;
+}
+
+.active {
+    color: white;
+}
+
+.btn {
+    color: white;
+    background-color: skyblue;
+    border-style: solid;
+    border-color: black;
+    box-shadow: 10px 5px 0px black;
+    height: 2rem;
+    width: 6rem;
+}
+
+.nav-links {
+    display: flex;
+    gap: 3rem;
+    list-style-type: none;
+    margin-right: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-links a {
+    text-decoration: none;
+}
+
+/* END OF CODE CHUNK */
